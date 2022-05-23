@@ -22,3 +22,5 @@ $livre->synopsis();
 $livre->vente();
 
 // rdv 13h30 !! @ toute suite !! 
+
+// 07-getter-setter.php
