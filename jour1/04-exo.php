@@ -24,3 +24,6 @@ $etudiant1 = new Etudiant();
 // echo "<pre>";
 var_dump($etudiant1);
 
+// https://github.com/webdevproformation/php-poo-d-mai-2022
+
+// 05-method.php
