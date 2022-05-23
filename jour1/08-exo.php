@@ -45,3 +45,15 @@ $f->sujet = "les sujets"; // erreur string alors que tu attends un array */
 
 // dans un délai plus ou moins long => réutiliser ce code 
 // pas d'erreur dans son utilisation moyen terme / long terme ! 
+
+// cas pratique créer le fichier 09-exo.php 
+/* créer une class Joueur 
+posséde deux propriétés privées nom = "" / niveau = 0
+
+pour initialiser ces deux propriétés => ascesseurs 
+pour le nom => il faut obligatoirement que le nom soit un string et qu'il contient au mois 3 caractères
+pour le niveau => il faut obligatoirement que le niveau soit un chiffre entier et qu'il soit compris entre 10 et 100 */
+
+// créer deux joueurs 
+// pour le 1er joueur nom => Alain / niveau 15
+// pour le 2ème joueur nom => Charles / niveau 9
