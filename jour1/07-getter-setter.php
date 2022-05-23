@@ -65,3 +65,15 @@ var_dump($a->getTitre());
 // si je veux pouvoir accéder à ma propriété de ma class 
 // ajouter des fonctions mutater / setter => modifier
 // ajouter des fonctions ascesseur  / getter => lire le contenu 
+
+// créer le fichier 08-exo.php 
+// créer une class Formation
+// 2 propriétés nom / sujets
+// nom = "PHP Poo"
+// sujet = ["class" , "objet" , "constante"]
+
+// créer les setter et getter pour ces deux propriétés privées
+// nom => obligatoire une string de minimum 5 lettres
+// sujet => obligatoirement un array qui contient au moins 2 valeurs 
+
+// utiliser les deux setter hors de la class pour modifier les valeurs de nom et sujets 
