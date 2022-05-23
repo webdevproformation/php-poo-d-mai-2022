@@ -109,3 +109,28 @@ object(Arbre)[3] // objet de type Arbre [3] zone mémoire
       'nomComplet' => string 'chêne liège' (length=13)
       'couleur' => string 'verte' (length=5)
 */
+
+// concept 
+// push les notes sur le github
+// cas pratique
+// 5 min - 10 min
+// correction
+
+// cas pratique :
+// créer le fichier 04-exo.php 
+
+// créer une class Etudiant 
+// contient 5 propriétés 
+// nom = "Alain"
+// age = 40
+// adresse = tableau 3 valeurs 
+//           75 rue de Paris
+//           paris
+//           75000
+// isAdmin = faux
+// compétences tableau indexé 4 valeurs => PHP / JS / NOdeJS / Symfony / React
+
+// à partir de cette class créer un objet etudiant1 
+// afficher le contenu de cet objet dans le navigateur 
+
+
