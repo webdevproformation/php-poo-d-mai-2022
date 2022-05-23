@@ -16,7 +16,6 @@ class Joueur{
      public function getNom(){
         return $this->nom ;
      }
-
      public function setNiveau($valeur){
          if(gettype($valeur) == "integer" && $valeur >= 10 && $valeur <=100){
         // if (is_int($valeur))
@@ -27,9 +26,7 @@ class Joueur{
      public function getNiveau(){
         return $this->niveau;
      }
-
- }
-
+}
 
 $j1 = new Joueur();
 $j1->setNom("Alain");
@@ -62,3 +59,8 @@ $isValid = $chiffre >= 10 && $chiffre <= 100 ;  // entre  */
 $toto = 123;
 var_dump(gettype($toto)); // integer
 // int pour le typehint
+
+// pause café rdv 15h35 @ toute suite !!! 
+
+// utiliser des objets dans des class 
+// 10-objet-objet.php
