@@ -49,3 +49,21 @@ object(Personne)[2]
       private string 'ville' => string 'Paris' (length=5)
       private int 'cp' => int 75000
  */
+
+ // créer le fichier 11-exo.php 
+ // créer une class Personnage 
+ // contenir deux propriétés privées 
+ // nom  = ""
+ // vie = 100
+
+ // setter et getter pour ces deux propriétés 
+
+ // méthode frapper( $personnage  )
+ // le fait de frapper va réduire de - 10 la vie de l'autre personnage 
+
+ // créer deux personnages 
+ // $magicien  nom "Merlin"
+// $guerrier nom "Alexandre le Grand"
+
+// le guerrier va frapper 2 fois le magicien => la vie du magicien doit passer de 100 à 80 
+
