@@ -18,3 +18,30 @@ $formulaire = new Formulaire($tableau);
 $validator = new Validator($tableau);
 
 var_dump($formulaire, $validator);
+
+// créer 4 fichiers 
+// 06-exo.php
+// charger toutes les class 
+// écrire dans le navigateur la phrase suivante
+// var_dump( "Alain doit réaliser le devoir de PHP"  )
+
+// nom du fichier Etudiant_class.php
+// class Etudiant
+// nom string  = ""
+// constructeur
+// getter
+
+// nom du fichier Professeur_class.php
+// class Professeur
+// nom string = ""
+// constructeur
+// méthode donner devoir à un étudiant 
+//        $etudiant + $devoir 
+//       var_dump( "Alain doit réaliser le devoir de PHP"  )
+// getter
+
+// nom du fichier Devoir_class.php
+// Devoir
+// sujet string = ""
+// constructeur
+// getter
