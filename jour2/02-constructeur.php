@@ -59,3 +59,19 @@ $plante2 = new Plante2("", "Hollande" , "rose", 10 , 5 , "01/01/2022");
 
 // var_dump($plante2->origine); // erreur
 var_dump($plante2->getOrigine()); // OK 
+
+// cas pratique créer le fichier 03-exo.php 
+
+// créer la class Etudiant 
+// 3 propriétés privées
+// nom string 
+// age chiffre entier
+// competence // tableau 
+
+// créer une méthode constructrice qui va initialiser les 3 propriétés de l'Etudiant
+
+// créer les getter associés à chaque propriété
+
+// créer deux étudiants
+// etudiant1  : Alain / 22 / ["PHP", "JS"]
+// etudiant2 : "Céline 18 / [NodeJS, Symfony , HTML, CSS]
