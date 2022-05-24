@@ -59,3 +59,21 @@ $a = new A();
 $a = new A();
 $b = new B();
 $b = new B();
+
+// cas pratique 
+// créer 05-exo.php
+// déclare strict
+// une fonction d'autoload qui va charger toutes les class nécessaires
+
+// créer un objet formulaire et créer un objet validateur
+
+// créer deux fichiers qui contient chacun une class 
+// nom du fichier Formulaire.class.php
+// class Formulaire 
+// contenir 1 propriété champs tableau par défaut vide
+// constructeur et getter
+
+// nom du fichier Validator.class.php
+// class Validator
+// contenir 1 propriété champs tableau par défaut vide
+// constructeur et getter
