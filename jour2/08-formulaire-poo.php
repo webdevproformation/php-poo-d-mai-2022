@@ -21,11 +21,15 @@ $formulaire = new Formulaire($_POST);
         <form method="POST">
             <?php echo $formulaire->inputText("prenom" , "Votre Prénom") ; ?>
             <?php echo $formulaire->inputText("nom" , "Votre Nom") ; ?>
+            <?php echo $formulaire->inputDate("dt_depart" , "Votre date de départ") ; ?>
+            <?php echo $formulaire->inputDate("dt_arrivee" , "Votre date d'arrivée") ; ?>
+            <?php echo $formulaire->textarea("besoins" , "Décrire vos besoins") ; ?>
             <?php echo $formulaire->inputEmail("email" , "Votre email") ; ?>
             <?php echo $formulaire->inputColor("background" , "la couleur de background ??") ; ?>
             <?php echo $formulaire->inputText("age" , "Votre Age") ; ?>
             <?php echo $formulaire->inputText("adresse" , "Votre Adresse") ; ?>
             <?php echo $formulaire->inputText("profession" , "Votre Profession") ; ?>
+            <?php echo $formulaire->textarea("commentaire" , "Laisser un commentaire") ; ?>
             <?php echo $formulaire->inputSubmit() ; ?>
         </form>
     </div>
