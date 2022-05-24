@@ -40,3 +40,18 @@ var_dump($b->largeur); */
 var_dump(B::$largeur);  // utiliser une propriété static Hors de la class 
 
 
+// créer le fichier 10-exo.php 
+
+// créer une class Serveur 
+
+// dispose de 3 propriétés statiques privées
+// port int =  80
+// domaine string =  localhost 
+// protocol string = http
+
+// créer une méthode urlServeur 
+// faire une conténation
+//  http://localhost:80
+// retourner cette string 
+
+// exécuter la méthode urlServeur 
