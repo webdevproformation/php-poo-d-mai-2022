@@ -5,9 +5,10 @@ declare(strict_types=1);
 require "Validator.class.php"; */
 
 spl_autoload_register(function($className){
-    $fichierClass = $className . ".class.php";
+    $fichierClass = $className . ".class.php"; // "Formulaire.class.php"
     require $fichierClass ; 
-
+    // require(Formulaireclass.php): Failed to open stream: No such file or directory in 
+    
     // require $className . ".class.php";
 });
 
