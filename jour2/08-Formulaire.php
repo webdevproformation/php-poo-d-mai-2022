@@ -29,3 +29,20 @@ class Formulaire{
         return $html ;
     }
 }
+
+// cas pratique 
+// pouvez vous créer une nouvelle méthode
+// dans la class Formulaire
+// qui va permettre d'ajouter des balises
+// textarea
+
+// une fois créée => l'utiliser dans le fichier
+// 08-formulaire-poo.php 
+
+// créer une nouvelle méthode qui permet de créer 
+// <input type="date"> 
+
+// une fois créée => l'utiliser dans le fichier
+// 08-formulaire-poo.php 
+
+// https://www.w3schools.com/tags/tag_input.asp
