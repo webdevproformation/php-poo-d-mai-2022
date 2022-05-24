@@ -23,7 +23,6 @@ class Formulaire{
         return $html ; 
     }
 
-
     public function inputText(string $nom , string $label){
         return $this->input($nom , $label , "text");
     }
