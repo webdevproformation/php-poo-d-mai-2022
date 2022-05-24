@@ -7,7 +7,7 @@ class Etudiant{
     private int $age = 0;
     private array $competences = [];
 
-    // setter 
+    // setter => fonction constructrice de la class (de l'objet)
     public function __construct(string $nom_p, int $age_p , array $competences_p){
         $this->nom = $nom_p ;
         $this->age = $age_p ;
@@ -27,3 +27,5 @@ $etudiant1 = new Etudiant("Alain", 22 , ["PHP", "JS"]);
 $etudiant2 = new Etudiant("Céline" ,18 , ["NodeJS", "Symfony" , "HTML", "CSS"]);
 
 var_dump($etudiant1, $etudiant2);
+
+// 10h50 @ toute suite bon café !!! 

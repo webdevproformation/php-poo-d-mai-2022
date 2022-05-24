@@ -31,6 +31,7 @@ $chiffre = 10 ;
 
 // class // objet
 // instanceof
+// https://www.php.net/manual/fr/ref.classobj.php
 
 $achete = true ;
 $libre = !$achete; 
