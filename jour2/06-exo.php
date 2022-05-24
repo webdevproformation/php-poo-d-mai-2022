@@ -11,3 +11,9 @@ $professeur = new Professeur("Céline");
 
 $professeur->donner($devoir , $etudiant); 
 
+// class qui va permet créer des formulaires !! en html 
+// class + $_POST + html + bootstrap 
+// rdv 13h40 !!!! 
+
+// 07-formulaire.php => bootstrap 
+// 
