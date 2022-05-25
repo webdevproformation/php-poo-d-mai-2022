@@ -44,3 +44,10 @@ $data = $articles->read();
     </div>
 </body>
 </html>
+<!--
+pouvez vous réaliser une nouvelle page => liste de commentaires
+créer un nouveau ficheir list-commentaires.php 
+=> ajouter à la barre de menu
+=> dans la page => Menu + tableau avec la liste des commentaires en base de données 
+
+-->
