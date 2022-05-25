@@ -37,12 +37,30 @@ class CRUD{
         return $sth->fetchAll();
     }
 
-    public function update(){}
+    public function update(array $data , int $id){
+        $keys = array_keys($data);
+        $sql = "UPDATE $this->table SET ";
+        foreach($keys as $k){
+            $sql .= " $k = :$k ,";
+        }
 
-    public function delete(){}
+        $sql = trim($sql , ","); // trim("!bonjour les amis !", "!") => "bonjour les amis "
+        $sql .= " WHERE id = :id";
+        // 'UPDATE commentaires SET  email = :email , contenu = :contenu  WHERE id = :id'
+        $sth = $this->connexion->prepare($sql);
+        $data["id"] = $id;
+        $sth->execute($data);
+    }
+
+    public function delete(int $id){
+        $sql = "DELETE FROM $this->table WHERE id = :id";
+        $sth = $this->connexion->prepare($sql);
+        $sth->execute(["id" => $id]);
+    }
 }
 
 // l'avantage 
+// bon appétit ! 13h35 @ toute suite !!!
 
 /* $articles = new CRUD("articles");
 var_dump($articles->read()); // récupérer 
@@ -51,7 +69,8 @@ $articles->delete(); // supprimer
 $articles->update(); // update */
 
  $commentaires = new CRUD("commentaires");
- $commentaires->create(["email" => "toto@yahoo.fr" , "contenu" => "je viens d'ajouter un commentaire via php"]); // insérer
+ $commentaires->update(["email" => "balbla@yahoo.fr" , "contenu" => "modification"], 2); 
+ //$commentaires->create(["email" => "toto@yahoo.fr" , "contenu" => "je viens d'ajouter un commentaire via php"]); // insérer
  var_dump($commentaires->read());
-$commentaires->delete(); // supprimer
-$commentaires->update(); // update 
+/* $commentaires->delete(); // supprimer
+$commentaires->update(); // update  */
