@@ -21,6 +21,9 @@ $formulaire = new Formulaire($_POST);
 </head>
 <body>
     <div class="container">
+        <header>
+            <?php echo Lien::Menu() ?>
+        </header>
         <h1>Ajouter un nouveau commentaire</h1>
         <form method="POST">
             <?php echo $formulaire->inputEmail("email" , "saisir votre email") ?>

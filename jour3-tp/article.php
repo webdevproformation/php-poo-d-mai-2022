@@ -23,6 +23,9 @@ $formulaire = new Formulaire($_POST);
 </head>
 <body>
     <div class="container">
+        <header>
+            <?php echo Lien::Menu() ?>
+        </header>
         <h1>Ajouter un nouvel article</h1>
         <form method="POST">
             <?php echo $formulaire->inputText("titre" , "Saisir le titre de l'article") ?>
@@ -33,4 +36,4 @@ $formulaire = new Formulaire($_POST);
     </div>
 </body>
 </html>
-
+<!-- rdv 15h20 -->
