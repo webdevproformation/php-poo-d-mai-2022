@@ -22,3 +22,13 @@ class Lien{
     }
 
 }
+
+// cas pratique créer une nouvelle page liste-article.php à la racine du dossier jour3-tp
+// requete dans la table articles => récupérer tous les articles 
+
+// dans la partie html 
+// installer bootstrap
+// ajouter le menu
+// afficher dans un tableau la liste de tous les articles <table></table>
+// id / titre / contenu 
+// 
