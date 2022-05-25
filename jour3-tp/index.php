@@ -31,4 +31,12 @@ $formulaire = new Formulaire($_POST);
 </body>
 </html>
 
+<!--
+    dans le dossier jour3-tp créer un nouveau fichier article.php 
 
+    loader toutes les class spl_autoad_register => lib 
+
+    créer un formulaire qui contient un seul champ de type input qui aura comme name titre
+
+    une fois que vous avez soumis votre formulaire => ajouter les données saisies dans la table articles associées
+-->
