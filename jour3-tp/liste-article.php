@@ -23,7 +23,7 @@ $data = $articles->read();
             <?php echo Lien::Menu() ?>
         </header>
         <h1>Tous les articles</h1>
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered">
             <thead>
                 <tr>
                     <th>id</th>
