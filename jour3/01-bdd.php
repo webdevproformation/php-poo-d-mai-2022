@@ -95,3 +95,16 @@ $sth = $connexion->prepare("SELECT * FROM articles");
 $sth->execute();
 
 var_dump($sth->fetchAll()); // $data 
+
+// cas pratique 
+// dans la base demo 
+// créer une nouvelle table commentaires contenant 3 colonnes
+// id INT unsigned NOT NULL A_I clé primaire
+// email VARCHAR 200 NOT NULL
+// contenu TEXT NOT NULL 
+
+// insérer dans la table commentaires 5 commentaires (utiliser la requête sql INSERT INTO)
+
+// créer un nouveau fichier 02-exo.php 
+// 1 établir une connexion à la base de donnée via la class PDO 
+// 2 afficher dans le navigateur la liste des commentaires présentant dans la table commentaires
