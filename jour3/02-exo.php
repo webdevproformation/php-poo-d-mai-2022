@@ -46,3 +46,11 @@ $requete->execute();
 $data = $requete->fetchAll(PDO::FETCH_ASSOC);
 
 var_dump($data);
+
+// CRUD 
+// 4 opérations de base que l'on peut réaliser 
+// sur une base / table 
+// Create => ajouter de nouvelles lignes INSERT INTO
+// Read => récupérer informations => SELECT
+// Update => ligne existante et la mettre à jour => UPDATE
+// Delete => supprimer une ou plusieurs lignes => Delete  
