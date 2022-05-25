@@ -49,4 +49,11 @@ foreach($data as $d){
 // créer une table articles
 // contient 2 colonnes 
 //    id INT Unsigned NOT NULL A_I clé primaire
-//    titre VARCHAR 255 NOT NULL   
+//    titre VARCHAR 255 NOT NULL  
+
+
+// windows  XAMPP / WAMP
+// http://localhost/phpmyadmin
+
+// MacOS
+// http://localhost:8888/phpmyadmin
