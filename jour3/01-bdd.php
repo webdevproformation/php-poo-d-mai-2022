@@ -87,6 +87,11 @@ $password = "" ; // "root" pour les utilisateurs de MAMP
 $connexion = new PDO($dsn , $username , $password);
 
 var_dump($connexion); 
-
+// 10h47 bon café @ toute suite !!!
 
 // Symfony => ORM => ligne de commande 
+
+$sth = $connexion->prepare("SELECT * FROM articles");
+$sth->execute();
+
+var_dump($sth->fetchAll()); // $data 
