@@ -57,3 +57,36 @@ foreach($data as $d){
 
 // MacOS
 // http://localhost:8888/phpmyadmin
+
+// remplir la table avec du SQL 
+// INSERT INTO articles (titre) VALUES ("article 1" ) , ("article 2") , ("article 3" ) , ("article 4" )
+
+
+// PDO 
+// class native de PHP  => livré dans PHP (pas besoin de la créer )
+/* class PDO{
+    ////
+} */
+// => utiliser la class présente dans le langage PHP 
+// PHP Data Objects => https://www.php.net/manual/fr/book.pdo.php
+
+/*
+https://www.php.net/manual/fr/pdo.construct.php
+public PDO::__construct(
+    string $dsn,
+    ?string $username = null,
+    ?string $password = null,
+    ?array $options = null
+)
+*/
+$dsn = "mysql:host=localhost;dbname=demo;charset=utf8"; // adresse de votre base de données sur le réseau
+// http://google.fr => site internet
+// mysql:host=localhost;dbname=demo;charset=utf8
+$username = "root";
+$password = "" ; // "root" pour les utilisateurs de MAMP
+$connexion = new PDO($dsn , $username , $password);
+
+var_dump($connexion); 
+
+
+// Symfony => ORM => ligne de commande 
