@@ -5,7 +5,8 @@ class Lien{
     private static array $liens = [
         "créer un commentaire" => "index.php",
         "créer un article" => "article.php",
-        "tous les articles" => "liste-article.php"
+        "tous les articles" => "liste-article.php",
+        "tous les commentaires" => "list-commentaires.php"
     ];
 
     public static function Menu(){
