@@ -58,31 +58,3 @@ class CRUD{
         $sth->execute(["id" => $id]);
     }
 }
-
-// l'avantage 
-// bon appétit ! 13h35 @ toute suite !!!
-
-/* $articles = new CRUD("articles");
-var_dump($articles->read()); // récupérer 
-$articles->create(["titre" => "encore un test" ]); // insérer
-$articles->delete(); // supprimer
-$articles->update(); // update */
-
- $commentaires = new CRUD("commentaires");
- $commentaires->update(["email" => "balbla@yahoo.fr" , "contenu" => "modification"], 2); 
- //$commentaires->create(["email" => "toto@yahoo.fr" , "contenu" => "je viens d'ajouter un commentaire via php"]); // insérer
- var_dump($commentaires->read());
-/* $commentaires->delete(); // supprimer
-$commentaires->update(); // update  */
-
-
-// class créer des formulaires
-// class crud qui permet CRUD pour une table dans une base de données 
-
-// premier projet 
-
-// créer un nouveau dossier jour3-tp
-// dans ce dossier créer un fichier index.php
-// créer un dossier lib
-// lib/Formulaire.php => récupérer la class Formulaire => dans le dossier hier
-// lib/CRUD.php => récupérer la class CRUD => du fichier en cours
