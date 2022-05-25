@@ -5,7 +5,13 @@ spl_autoload_register(function($className){
 });
 
 $commentaires = new CRUD("commentaires");
-$datas = $commentaires->read();
+
+if(isset($_GET["id"])){
+    $id = (int)$_GET["id"] ; 
+    $commentaires->delete($id); // DELETE FROM commentaires WHERE id = 7
+}
+
+$datas = $commentaires->read(); // SELECT * FROM commentaires ; 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -29,6 +35,7 @@ $datas = $commentaires->read();
                     <th>id</th>
                     <th>email</th>
                     <th>contenu</th>
+                    <th>action</th>
                 </tr>
             </thead>
             <tbody>
@@ -37,6 +44,10 @@ $datas = $commentaires->read();
                         <td><?php echo $d["id"] ?></td>
                         <td><?php echo $d["email"] ?></td>
                         <td><?php echo $d["contenu"] ?></td>
+                        <td>
+                            <a href="" class="btn btn-warning btn-sm me-3"> modifier</a>
+                            <a href="?id=<?php echo $d["id"] ?>" class="btn btn-danger btn-sm" onclick="return confirm('êtes vous sur de vouloir supprimer l\'article <?php echo $d['id'] ?>  ??')">supprimer</a>
+                        </td>
                     </tr>
                 <?php endforeach ?>
             </tbody>

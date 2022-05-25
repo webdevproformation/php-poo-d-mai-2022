@@ -9,6 +9,7 @@ if(!empty($_POST)){
     $_POST = [];
 }
 $formulaire = new Formulaire($_POST);
+// qcm de 10 min à partir de 16h50 !! 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
