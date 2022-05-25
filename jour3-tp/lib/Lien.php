@@ -4,7 +4,8 @@ class Lien{
 
     private static array $liens = [
         "créer un commentaire" => "index.php",
-        "créer un article" => "article.php"
+        "créer un article" => "article.php",
+        "tous les articles" => "liste-article.php"
     ];
 
     public static function Menu(){
@@ -20,7 +21,6 @@ class Lien{
         $html .= "</nav>";
         return $html;
     }
-
 }
 
 // cas pratique créer une nouvelle page liste-article.php à la racine du dossier jour3-tp
