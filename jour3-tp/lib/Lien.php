@@ -8,7 +8,7 @@ class Lien{
     ];
 
     public static function Menu(){
-        $html = "<nav class=\"navbar navbar-expand bg-primary navbar-light\">";
+        $html = "<nav class=\"navbar navbar-expand bg-primary navbar-dark px-3 mb-3\">";
         $html .= "<a href=\"#\" class=\"navbar-brand\">projet jour3</a>";
         $html .= "<ul class=\"navbar-nav\">";
         foreach(self::$liens as $libelle => $page){
