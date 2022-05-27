@@ -1,6 +1,6 @@
 <?php  //http://localhost/php-poo/jour4/03-exo.php
 
-class Personnage{
+class Personnage{ // réduire la duplication de code entre plusieurs class 
     public string $nom = "";
     public int $experience = 10 ;
 }
@@ -27,3 +27,5 @@ $chevalier->frapper(); // 20
 // parent:: 
 // $this-> self::
 // polymorphisme 
+
+// 10h50 bon café !! @ toute suite !!
