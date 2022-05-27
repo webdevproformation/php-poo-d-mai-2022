@@ -123,7 +123,7 @@ $nouveau->achat(); //OK
 
 $c = new Cassoulet();
 $c->setNom("cassoulet");
-$c->calculBudget(["ingrediant1" => 10 , "ingrediant2" => 20 , "ingrediant3" => 10]);
+$c->calculBudget(["ingredient1" => 10 , "ingredient2" => 20 , "ingredient3" => 10]);
 $c->description(); 
 
 
