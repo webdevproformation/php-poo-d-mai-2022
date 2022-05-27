@@ -68,5 +68,5 @@ $reflexion = new ReflectionClass($a);
 var_dump($reflexion->getDocComment());
 
 $reflexionM = new ReflectionMethod("A" , "method");
-$reflexionM = new ReflectionMethod( A::class , "method");
+$reflexionM = new ReflectionMethod( A::class , "method"); // annotation 
 var_dump($reflexionM->getDocComment());
