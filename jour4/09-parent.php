@@ -18,7 +18,7 @@ class EtudiantDoranco extends Etudiant{
 $etudiantDoranco = new EtudiantDoranco();
 
 $etudiantDoranco->information();
-// pause café rdv 15 min => 15h00 !!
+// pause café rdv 15 min => 15h15 !!
 
 class Cahier{
     protected string $couleur ;
@@ -40,4 +40,5 @@ $cahierRouge2 = new CahierRouge();
 
 var_dump($cahierRouge2);
 
+// qcm à 16h50 
 
