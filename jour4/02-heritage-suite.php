@@ -38,4 +38,4 @@ $c->action() ; // oui la méthode est disponible car dans son parent et public
 // créer une class Paladin qui hérite de la class Personnage
 // dispose d'une méthode attaquer => expérience * 2 
 
-// créer un paraladin et un magicien et exécuter leur méthode d'attaque respective
+// créer un paladin et un magicien et exécuter leur méthode d'attaque respective
