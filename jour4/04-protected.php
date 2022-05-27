@@ -91,4 +91,40 @@ $nouveau->achat(); //OK
 
 // encapsulation => espace dans notre code variable / fonction qui sont plus ou moins accessible / plus ou moins protégées
 
+// cas pratique : créer le fichier 05-exo.php 
+
+// plusieurs class à créer 
+// class Plat
+// 1 prop privée 
+// nom de type string 
+
+// 2 prop public 
+// saison string
+// ingredient tableau 
+
+// 1 prop protected 
+//  budget 
+
+// créer les setter et getter pour la propriété privée
+
+//----------------
+
+// class Cassoulet qui hérite de Plat 
+
+// contient 2 méthodes publiques 
+// calculBudget( array $ingredient )
+//somme des ingrediants mis dans le tableau pour calculer le budget
+
+// description
+// concaténation 
+// pour faire un cassoulet il faut 40 euros ;
+
+//----------------
+
+$c = new Cassoulet();
+$c->setNom("cassoulet");
+$c->calculBudget(["ingrediant1" => 10 , "ingrediant2" => 20 , "ingrediant3" => 10]);
+$c->description(); 
+
+
 
