@@ -25,3 +25,17 @@ $c->action() ; // oui la méthode est disponible car dans son parent et public
 // communes au deux class 
 // héritage permet de factoriser votre code 
 
+// cas pratique => créer le fichier 03-exo.php 
+
+// créer une class Personnage
+// dispose de deux propriétés 
+// => nom  string 
+// expérience chiffre entier = 10
+
+// créer une class Magicien qui hérite de Personnage 
+// dispose d'une méthode lancerUnSort => expérience * 5 
+
+// créer une class Paladin qui hérite de la class Personnage
+// dispose d'une méthode attaquer => expérience * 2 
+
+// créer un paraladin et un magicien et exécuter leur méthode d'attaque respective
