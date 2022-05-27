@@ -18,3 +18,26 @@ class EtudiantDoranco extends Etudiant{
 $etudiantDoranco = new EtudiantDoranco();
 
 $etudiantDoranco->information();
+// pause café rdv 15 min => 15h00 !!
+
+class Cahier{
+    protected string $couleur ;
+    public function setCouleur (string $c){
+        $this->couleur = $c;
+    }
+}
+
+$cahierRouge = new Cahier();
+$cahierRouge->setCouleur("rouge");
+
+var_dump($cahierRouge);
+
+class CahierRouge extends Cahier{
+    protected string $couleur = "Rouge";
+}
+
+$cahierRouge2 = new CahierRouge();
+
+var_dump($cahierRouge2);
+
+
